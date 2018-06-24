@@ -1,6 +1,3 @@
-/**
- * 
- */
 package com.liu.utils;
 
 import java.util.Set;

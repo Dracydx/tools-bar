@@ -9,7 +9,8 @@ import groovy.util.ScriptException;
 
 public class TestLoadConfigGroovyMain {
 
-	public static void main(String[] args) throws IOException, InstantiationException, IllegalAccessException, ResourceException, ScriptException{
+	public static void main(String[] args)
+			throws IOException, InstantiationException, IllegalAccessException, ResourceException, ScriptException {
 		String[] roots = new String[] { "src/main/java/com/liu/groovy/" };
 		// 通过指定的roots来初始化GroovyScriptEngine
 		GroovyScriptEngine gse = new GroovyScriptEngine(roots);

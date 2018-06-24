@@ -1,6 +1,5 @@
 package com.liu.elasticsearch.search;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import com.liu.elasticsearch.Blog;
@@ -21,6 +20,7 @@ public class ElasticSearchQueryHandler {
 		para.setMarketTime(DateTool.stringToDate("2017-03-20"));
 		//para.setTitle("Shell基本知识");
 		para.setContent("Hibernate");
+		@SuppressWarnings("unused")
 		List<Blog> list = blogServiceImpl.fetchBlogInfoFromSearch(para);
 		//System.out.println(FastJsonHelper.serialize(list));
 	}

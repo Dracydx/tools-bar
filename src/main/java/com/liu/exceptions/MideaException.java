@@ -1,6 +1,3 @@
-/**
- * 
- */
 package com.liu.exceptions;
 
 import java.lang.reflect.Constructor;
